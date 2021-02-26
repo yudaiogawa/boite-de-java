@@ -17,8 +17,9 @@ repositories {
 }
 
 dependencies {
-  compileOnly 'org.projectlombok:lombok'
-  annotationProcessor 'org.projectlombok:lombok'
+  compileOnly 'org.projectlombok:lombok:1.18.10'
+  annotationProcessor 'org.projectlombok:lombok:1.18.10'
+
   implementation 'com.google.guava:guava:28.1-jre'
 
   implementation 'org.apache.poi:poi:4.1.1'
